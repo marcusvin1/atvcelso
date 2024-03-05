@@ -1,0 +1,21 @@
+﻿@model bool
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Exemplo de Exibição de Valor Booleano</title>
+</head>
+<body>
+    <h1>Valor do campo "Banned": @Model</h1>
+    <p>
+        @if (Model)
+        {
+            <span style="color: green;">Verdadeiro</span>
+        }
+        else
+        {
+            <span style="color: red;">Falso</span>
+        }
+    </p>
+</body>
+</html>
